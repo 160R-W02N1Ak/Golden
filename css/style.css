@@ -198,4 +198,33 @@ h3 {
 }
 
 /* Services */
+.flex-1 {
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding-right: 10px;
+}
+
+.flex-1 h1 {
+  font-size: 1.3em;
+}
+
+i {
+  color: #fed136;
+  background-color: #ffffff;
+  font-size: 35px;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+  line-height: 70px;
+  border: 2px solid;
+  padding-top: 16px;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Our Portfolio*/
 /*# sourceMappingURL=style.css.map */
