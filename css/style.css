@@ -1,0 +1,84 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Signika", serif;
+  color: #2c2c54;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+section {
+  padding: 120px 0;
+}
+
+p {
+  color: #777;
+  font-size: 1.1em;
+  letter-spacing: -0.35px;
+  font-weight: 400;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  width: 296px;
+  height: 17px;
+  color: #777;
+  font-family: "Signika", serif;
+  font-size: 1.1em;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  margin-top: -0,7%;
+}
+
+.row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 138px;
+  min-height: 65px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #fed136;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
