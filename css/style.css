@@ -197,7 +197,7 @@ h3 {
   color: #fff;
 }
 
-/* Services */
+/*  Services  */
 .flex-1 {
   padding: 0;
   display: -ms-flexbox;
@@ -226,14 +226,14 @@ i {
   margin-bottom: 20px;
 }
 
-/* Our Portfolio*/
+/*  Our Portfolio  */
 .portfolio {
   background-color: #f7f7f7;
 }
 
 .flex-2 {
   padding: 0;
-  background-color: #f7f7f7f;
+  background-color: #ffffff;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -251,6 +251,8 @@ h4, p {
 img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 h4 {
@@ -335,5 +337,96 @@ footer ul li {
   font-style: normal;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 618px) and (min-height: 315px) {
+  section {
+    padding: 2em 0;
+  }
+  .btn {
+    padding: 0.5em 1em 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  .navigation ul {
+    position: absolute;
+    width: 90%;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    top: 20vmin;
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translateX(-45%);
+  }
+  .navigation ul li {
+    display: block;
+    height: 2em;
+    text-align: center;
+    left: -5%;
+    margin: 0 2% 0 0;
+    position: relative;
+  }
+  .navigation a {
+    font-size: 1.1em;
+  }
+  .golden {
+    font-size: 2em;
+    left: 7vmin;
+  }
+  .splash-inner {
+    top: 55%;
+  }
+  .page-subtitle {
+    font-size: 1.7em;
+    margin-bottom: 2vh;
+  }
+  .page-title {
+    font-size: 2.1em;
+    margin-bottom: 0;
+    padding-bottom: 3vh;
+  }
+  .page-footer .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  footer {
+    margin: 0;
+  }
+  .social-media {
+    left: -20px;
+    transform: translateX(0);
+  }
+  .social-media ul li {
+    margin: 0;
+  }
+  .social-media ul li i {
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+  }
+  .copyright {
+    height: 3em;
+    bottom: 0.2em;
+    left: 0;
+    transform: translateX(0);
+  }
+  .copyright p {
+    margin: 1.7vw 0 0;
+    font-size: 1em;
+    left: -6em;
+    bottom: -5em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
